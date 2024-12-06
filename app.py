@@ -91,7 +91,7 @@ if file is None:
     st.text("Please upload an image file")
 else:
     # Load both models
-    emotion_model = keras.models.load_model('dog_emotion_model.keras')
+    emotion_model = keras.models.load_model('emotion_model.keras')
     breed_model = keras.models.load_model('breed_model.keras')
     
     image = Image.open(file)
