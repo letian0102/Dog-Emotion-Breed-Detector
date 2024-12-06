@@ -1,0 +1,6 @@
+keras==3.5.0
+numpy==1.24.4
+numpy==1.24.3
+streamlit==1.40.2
+tensorflow==2.17.1
+tensorflow_intel==2.17.1
